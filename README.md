@@ -1,14 +1,14 @@
 # Cryptocurrencies
 ## Overview
-In this project, I am working on the crypto currency dataset. The goal of our analysis is to build a machine learning model to cluster similar crtypto currincies in the trading market together.
+In this project, I am working on the crypto currency dataset. The goal of our analysis is to build a machine learning model to cluster similar crypto currincies in the trading market together.
 
 ![intro.jpg](intro.jpg)
 
-For this problem, the clustering algorith implemented is the KMeans algorithm. However, some data preprocessing needed to be done in order to start using the data. First, some filteration is done, then data encoding is applied using pandas `get_dummies()`. Afterwards, we applied standard scaling. Moreover, we reduced the data dimensionality using PCA into three principal components. Using these three principal components, we trained our KMeans model.
+For this problem,I used the KMeans algorithm. Some data preprocessing needed to be done in order to start using the data. First filteration was done, then data encoding was applied using pandas `get_dummies()`. I applied standard scaling and reduced the data dimensionality using PCA into three principal components. Using these three principal components, I trained the KMeans model.
 
 ## Results
 
-In this section we discuss the results found during conducting our analysis.
+Results found during conducting our analysis.
 
 ##### Using elbow method, we can see that k = 4 is recommended for this data
 ![elbow.png](elbow.png)
@@ -23,4 +23,4 @@ In this section we discuss the results found during conducting our analysis.
 
 ## Summary
 
-It's much easier to plot the data and visualize the results by employing the power of PCA in dimensionality reduction. Moreover, we found out that K = 4 is the best value for our KMeans model. Training the model using these principal components and with K = 4, we can group similar crypto currencies together.
+It's much easier to plot the data and visualize the results by using the power of PCA in dimensionality reduction. I found out that K = 4 is the best value for our KMeans model. Training the model using these principal components and with K = 4, I grouped similar crypto currencies together.
