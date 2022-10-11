@@ -2,7 +2,7 @@
 ## Overview
 In this project, I am working on the crypto currency dataset. The goal of our analysis is to build a machine learning model to cluster similar crtypto currincies in the trading market together.
 
-![intro.jpg](images/intro.jpg)
+![intro.jpg](intro.jpg)
 
 For this problem, the clustering algorith implemented is the KMeans algorithm. However, some data preprocessing needed to be done in order to start using the data. First, some filteration is done, then data encoding is applied using pandas `get_dummies()`. Afterwards, we applied standard scaling. Moreover, we reduced the data dimensionality using PCA into three principal components. Using these three principal components, we trained our KMeans model.
 
@@ -11,13 +11,13 @@ For this problem, the clustering algorith implemented is the KMeans algorithm. H
 In this section we discuss the results found during conducting our analysis.
 
 ##### Using elbow method, we can see that k = 4 is recommended for this data
-![elbow.png](images/elbow.png)
+![elbow.png](elbow.png)
 
 ##### 3D scatter of the 3 pca components alognside with the KMeans predicstions
-![ed.png](images/3d.png)
+![ed.png](3d.png)
 
 ##### Scatter plot of x=TotalCoinsMined and y = TotalCoinSupply
-![scaled.png](images/scaled.png)
+![scaled.png](scaled.png)
 
 
 
